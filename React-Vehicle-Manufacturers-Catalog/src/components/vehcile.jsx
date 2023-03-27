@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './styles/style.css'
 
-const Vehcile = () =>{
+const Homepage = () =>{
     const [data, setData] = useState([])
     const [loading, setLoading] = useState(true)
     const [search, setSearch] = useState("")
@@ -105,4 +105,4 @@ const Vehcile = () =>{
         </div>
     )
 }
-export default Vehcile
+export default Homepage
